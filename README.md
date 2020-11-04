@@ -175,4 +175,4 @@ sudo npm start
 
 修改镜像源 npm set registry https://registry.npm.taobao.org/
 
-公司镜像源 npm set registry http://nexus.unipus.cn:8082/repository/npm-all/
+修改镜像源 npm set registry http://nexus.unipus.cn:8082/repository/npm-all/
