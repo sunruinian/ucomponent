@@ -174,5 +174,3 @@ sudo npm start
 查看 npm 源地址 npm config list
 
 修改镜像源 npm set registry https://registry.npm.taobao.org/
-
-修改镜像源 npm set registry http://nexus.unipus.cn:8082/repository/npm-all/
