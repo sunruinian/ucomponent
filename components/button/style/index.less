@@ -1,0 +1,89 @@
+@import '../../style/themes/index';
+@import '../../style/themes/cust_theme';
+@btn-prefix-cls: ~'@{ant-prefix}-btn';
+.@{btn-prefix-cls} {
+  > .@{iconfont-css-prefix} + span,
+  > span + .@{iconfont-css-prefix} {
+    margin-left: @margin-xss;
+  }
+  &-lg {
+    padding: @padding-number-topxss @padding-number-leftxss;
+  }
+  &-primary {
+    &:disabled {
+      color: @btn-color;
+      border-color: @btn-disable-border;
+      background-color: @btn-disable-bg;
+    }
+  }
+  &-primary:hover {
+    &:disabled {
+      color: @btn-color;
+      border-color: @btn-disable-border;
+      background-color: @btn-disable-bg;
+    }
+  }
+  &-default {
+    // color: @text-color;
+    &:disabled {
+      color: @btn-color;
+      border-color: @btn-disable-border;
+      background-color: @btn-disable-bg;
+    }
+  }
+  &-default:hover {
+    &:disabled {
+      color: @btn-color;
+      border-color: @btn-disable-border;
+      background-color: @btn-disable-bg;
+    }
+  }
+  &-dashed {
+    // color: @text-color;
+    &:disabled {
+      color: @btn-color;
+      border-color: @btn-disable-border;
+      background-color: @btn-disable-bg;
+    }
+  }
+  &-dangerous {
+    color: #ff4d4f;
+  }
+  &-dashed:hover {
+    &:disabled {
+      color: @btn-color;
+      border-color: @btn-disable-border;
+      background-color: @btn-disable-bg;
+    }
+  }
+  &-round {
+    &:disabled {
+      color: @btn-color;
+      border-color: @btn-disable-border;
+      background-color: @btn-disable-bg;
+    }
+  }
+  &-round:hover {
+    &:disabled {
+      color: @btn-color;
+      border-color: @btn-disable-border;
+      background-color: @btn-disable-bg;
+    }
+  }
+  &-group {
+    margin-right: @margin-xss;
+    Button {
+      &:disabled {
+        color: @btn-color;
+        background-color: @btn-disable-bg;
+      }
+    }
+    Button:hover {
+      opacity: @opacity;
+      &:disabled {
+        color: @btn-color;
+        background-color: @btn-disable-bg;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.ant-breadcrumb {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}
+.ant-breadcrumb .anticon {
+  font-size: 14px;
+}
+.ant-breadcrumb a {
+  color: rgba(0, 0, 0, 0.45);
+}
+.ant-breadcrumb a:hover {
+  color: #40a9ff;
+}
+.ant-breadcrumb-separator {
+  color: rgba(0, 0, 0, 0.45);
+}

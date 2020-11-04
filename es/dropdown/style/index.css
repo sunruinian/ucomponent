@@ -1,0 +1,21 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.ant-dropdown-menu-item,
+.ant-dropdown-menu-submenu-title {
+  padding: 5px 16px;
+}
+.ant-dropdown-menu-item:hover,
+.ant-dropdown-menu-submenu-title:hover {
+  background-color: #e6f7ff;
+}
+.ant-dropdown-menu-item:hover > a,
+.ant-dropdown-menu-submenu-title:hover > a {
+  background-color: #e6f7ff;
+}
+.ant-dropdown-trigger > .anticon.anticon-down,
+.ant-dropdown-link > .anticon.anticon-down {
+  -webkit-transform: none;
+  transform: none;
+}

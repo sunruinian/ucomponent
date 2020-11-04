@@ -1,0 +1,20 @@
+@import '../../style/themes/index';
+@import '../../style/themes/cust_theme';
+@table-prefix-cls: ~'@{ant-prefix}-table';
+.@{table-prefix-cls} {
+  &-tbody {
+    > tr {
+      &.@{table-prefix-cls}-row:hover {
+        background-color: @table-row-hover-bg;
+        > td {
+          background-color: @table-row-hover-bg;
+        }
+      }
+      &.@{table-prefix-cls}-row-selected {
+        > td {
+          background: inherit;
+        }
+      }
+    }
+  }
+}

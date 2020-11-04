@@ -1,0 +1,24 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.ant-pagination {
+  color: rgba(0, 0, 0, 0.65);
+}
+.ant-pagination-item a {
+  color: rgba(0, 0, 0, 0.65);
+}
+.ant-pagination-item-active a {
+  color: rgba(0, 0, 0, 0.65);
+}
+.ant-pagination-prev a,
+.ant-pagination-next a {
+  color: rgba(0, 0, 0, 0.65);
+}
+.ant-pagination-prev .ant-pagination-item-link span,
+.ant-pagination-next .ant-pagination-item-link span {
+  vertical-align: initial;
+}
+.ant-pagination-options-size-changer.ant-select {
+  color: rgba(0, 0, 0, 0.65);
+}

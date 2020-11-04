@@ -1,0 +1,20 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.ant-radio-wrapper {
+  color: rgba(0, 0, 0, 0.85);
+}
+.ant-radio-button-wrapper {
+  color: rgba(0, 0, 0, 0.85);
+}
+.ant-radio-button-wrapper-disabled {
+  color: rgba(0, 0, 0, 0.25) !important;
+  border-color: rgba(0, 0, 0, 0.15) !important;
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+.ant-radio-button-wrapper-disabled:hover {
+  color: rgba(0, 0, 0, 0.25) !important;
+  border-color: rgba(0, 0, 0, 0.15) !important;
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}

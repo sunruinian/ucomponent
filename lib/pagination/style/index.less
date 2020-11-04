@@ -1,0 +1,32 @@
+@import '../../style/themes/index';
+@import '../../style/themes/cust_theme';
+@pagination-prefix-cls: ~'@{ant-prefix}-pagination';
+.@{pagination-prefix-cls} {
+  color: @text-color-secondary;
+  &-item {
+    a {
+      color: @text-color-secondary;
+    }
+    &-active {
+      a {
+        color: @primary-color;
+      }
+    }
+  }
+  &-prev,
+  &-next {
+    a {
+      color: @text-color-secondary;
+    }
+    .@{pagination-prefix-cls}-item-link {
+      span {
+        vertical-align: initial;
+      }
+    }
+  }
+}
+.@{pagination-prefix-cls}-options {
+  &-size-changer.@{ant-prefix}-select {
+    color: @text-color-secondary;
+  }
+}

@@ -1,0 +1,25 @@
+@import '../../style/themes/index';
+@import '../../style/themes/cust_theme';
+@dropdown-prefix-cls: ~'@{ant-prefix}-dropdown';
+.@{dropdown-prefix-cls} {
+  &-menu {
+    &-item,
+    &-submenu-title {
+      padding: @submenu-padding;
+      &:hover {
+        background-color: @primary-bg-bg;
+        > a {
+          background-color: @primary-bg-bg;
+        }
+      }
+    }
+  }
+}
+
+.@{dropdown-prefix-cls}-trigger,
+.@{dropdown-prefix-cls}-link {
+  > .@{iconfont-css-prefix}.@{iconfont-css-prefix}-down {
+    -webkit-transform: none;
+    transform: none;
+  }
+}

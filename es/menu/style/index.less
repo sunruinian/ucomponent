@@ -1,0 +1,60 @@
+@import '../../style/themes/index';
+@import '../../style/themes/cust_theme';
+@menu-prefix-cls: ~'@{ant-prefix}-menu';
+.@{menu-prefix-cls} {
+  font-size: @font-size-lg;
+  &-submenu {
+    font-size: @menu-icon-size;
+    .@{menu-prefix-cls}-item {
+      font-size: @menu-icon-size;
+      > .@{menu-prefix-cls}-item,
+      > .@{menu-prefix-cls}-submenu {
+        font-size: @menu-icon-size;
+      }
+    }
+  }
+  .@{menu-prefix-cls} {
+    .@{menu-prefix-cls}-submenu {
+      .@{menu-prefix-cls}-submenu-title {
+        font-size: @menu-icon-size;
+      }
+    } 
+  }
+  .@{menu-prefix-cls}-submenu{
+    .@{menu-prefix-cls}-submenu-title {
+      font-size: @font-size-lg;
+    }
+    .@{menu-prefix-cls}-submenu {
+      .@{menu-prefix-cls}-submenu-title {
+        font-size: @menu-icon-size;
+      }
+    }
+  } 
+  &-item{
+    font-size: @font-size-lg;
+    .@{iconfont-css-prefix} {
+      font-size: @font-size-lg;
+    }
+  }
+  &-horizontal {
+    &:not(.@{menu-prefix-cls}-dark) {
+      font-size: @menu-icon-size;
+      > .@{menu-prefix-cls}-item,
+      > .@{menu-prefix-cls}-submenu {
+        // &-active,
+        // &-open,
+        &-selected {
+          // color: @menu-highlight-color;
+          border-bottom: 2px solid @select-item-selected-color;
+        }
+        &-open {
+          border-bottom: 2px solid @menu-highlight-color;
+        }
+        &:hover{
+          border-bottom: 2px solid @menu-highlight-color;
+        }
+      }
+    } 
+  }
+}
+

@@ -1,0 +1,12 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: #e6f7ff;
+}
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  color: #1890ff;
+  font-weight: 600;
+  background-color: inherit;
+}
